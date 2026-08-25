@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人作品集 Portfolio</title>
+    <title>Personal Portfolio</title>
     <style>
-        body { font-family: sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #f9f9f9; color: #333; }
-        header { text-align: center; padding: 40px 0; }
-        h1 { margin-bottom: 10px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #f9f9f9; color: #333; }
+        header { text-align: center; padding: 50px 0 30px; }
+        h1 { margin-bottom: 10px; font-size: 2.2em; }
+        p.subtitle { color: #666; font-size: 1.1em; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
-        .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-4px); }
         .card img { width: 100%; height: 200px; object-fit: cover; }
         .card-info { padding: 15px; }
+        .card-info h3 { margin: 0 0 8px 0; font-size: 1.2em; }
+        .card-info p { margin: 0; color: #666; font-size: 0.95em; }
     </style>
 </head>
 <body>
     <header>
-        <h1>你好，我是 [你的名字]</h1>
-        <p>这里展示我的个人作品与创作项目。</p>
+        <h1>Hello, I'm Yuanquan</h1>
+        <p class="subtitle">Welcome to my personal portfolio. Here is a showcase of my recent creative works and projects.</p>
     </header>
 
     <div class="grid">
         <div class="card">
-            <img src="images/astronaut-and-science.jpg" alt="作品1">
+            <img src="images/8888ok.jpg" alt="Artwork 1">
             <div class="card-info">
-                <h3>宇航与科学</h3>
-                <p>探索未知领域的概念设计。</p>
+                <h3>Project 01</h3>
+                <p>Visual Design & Creative Artwork</p>
             </div>
         </div>
         <div class="card">
-            <img src="images/flowers-and-bird.jpeg" alt="作品2">
+            <img src="images/be79313ab76c26ff6b7e2a2c471bb8ab.jpeg" alt="Artwork 2">
             <div class="card-info">
-                <h3>花与鸟</h3>
-                <p>自然生灵插画系列。</p>
+                <h3>Project 02</h3>
+                <p>Illustration & Graphic Exploration</p>
             </div>
         </div>
         <div class="card">
-            <img src="images/space-exploration.jpeg" alt="作品3">
+            <img src="images/IMG_0588.JPG" alt="Artwork 3">
             <div class="card-info">
-                <h3>太空探索</h3>
-                <p>关于深空摄影与艺术实践。</p>
+                <h3>Project 03</h3>
+                <p>Digital Art & Concept Design</p>
             </div>
         </div>
         <div class="card">
-            <img src="images/space-industrial.jpg" alt="作品4">
+            <img src="images/IMG_1886.jpeg" alt="Artwork 4">
             <div class="card-info">
-                <h3>工业太空</h3>
-                <p>硬核科幻概念作品。</p>
+                <h3>Project 04</h3>
+                <p>Photography & Visual Studies</p>
             </div>
         </div>
     </div>
