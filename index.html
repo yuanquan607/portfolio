@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人作品集 Portfolio</title>
+    <style>
+        body { font-family: sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #f9f9f9; color: #333; }
+        header { text-align: center; padding: 40px 0; }
+        h1 { margin-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-info { padding: 15px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>你好，我是 [你的名字]</h1>
+        <p>这里展示我的个人作品与创作项目。</p>
+    </header>
+
+    <div class="grid">
+        <div class="card">
+            <img src="images/astronaut-and-science.jpg" alt="作品1">
+            <div class="card-info">
+                <h3>宇航与科学</h3>
+                <p>探索未知领域的概念设计。</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/flowers-and-bird.jpeg" alt="作品2">
+            <div class="card-info">
+                <h3>花与鸟</h3>
+                <p>自然生灵插画系列。</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/space-exploration.jpeg" alt="作品3">
+            <div class="card-info">
+                <h3>太空探索</h3>
+                <p>关于深空摄影与艺术实践。</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/space-industrial.jpg" alt="作品4">
+            <div class="card-info">
+                <h3>工业太空</h3>
+                <p>硬核科幻概念作品。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
